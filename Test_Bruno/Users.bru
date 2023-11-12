@@ -1,0 +1,18 @@
+meta {
+  name: Users
+  type: http
+  seq: 2
+}
+
+post {
+  url: https://reqres.in/api/users
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "morpheus",
+      "job": "leader"
+  }
+}

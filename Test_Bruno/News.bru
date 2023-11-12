@@ -1,0 +1,17 @@
+meta {
+  name: News
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://chroniclingamerica.loc.gov/search/titles/results/?terms=oakland&format=json&page=5
+  body: none
+  auth: none
+}
+
+query {
+  terms: oakland
+  format: json
+  page: 5
+}
